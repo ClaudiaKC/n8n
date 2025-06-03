@@ -1,0 +1,12 @@
+
+# THIS IS A DUMMY FILE FOR DEPLOYMENT PURPOSES ONLY
+# It tricks Render into using Yarn instead of Bun
+
+__metadata:
+  version: 5
+  cacheKey: 8
+
+"@n8n/core@*", "@n8n/workflow@*", "@n8n/nodes-base@*":
+  version "0.0.0-use-real-deps"
+  resolved "https://registry.yarnpkg.com"
+  integrity sha512-xxxxx
